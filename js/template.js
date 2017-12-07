@@ -78,7 +78,7 @@ $(document).ready(function(){
 	// prettyPhoto
 
 	$("a[rel^='alternate']").prettyPhoto();
-   
+
 }); // End of use strict
 
 
