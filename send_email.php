@@ -3,7 +3,7 @@ if($_POST!='' && isset($_POST)){
 	
 	if($_REQUEST['InputEmail']!='' || $_REQUEST['InputName']!='' || $_REQUEST['InputPhone']!='' || $_REQUEST['InputMessage']!='')
 	{
-		$to = "jeeshnav.balaji4@gmail.com";
+		$to = "thefotomakersdotcom@gmail.com";
 		$from = strip_tags($_REQUEST['InputEmail']); 
 		$name = strip_tags($_REQUEST['InputName']); 
 		$phone = strip_tags($_REQUEST['InputPhone']); 
